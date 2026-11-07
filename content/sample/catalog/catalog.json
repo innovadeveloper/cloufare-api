@@ -1,0 +1,82 @@
+[
+  {
+    "id": 101,
+    "slug": "la-casa-de-la-niebla",
+    "title": "La casa de la niebla",
+    "description": "Una historia interactiva por descubrir.",
+    "genres": [
+      "misterio"
+    ],
+    "coverKey": "stories/101/cover.webp",
+    "status": "published",
+    "publishedAt": "2026-11-01T00:00:00Z",
+    "chapterCount": 2,
+    "tags": [
+      "decisiones"
+    ]
+  },
+  {
+    "id": 102,
+    "slug": "el-bosque-de-los-susurros",
+    "title": "El bosque de los susurros",
+    "description": "Una historia interactiva por descubrir.",
+    "genres": [
+      "aventura"
+    ],
+    "coverKey": "stories/102/cover.webp",
+    "status": "published",
+    "publishedAt": "2026-11-02T00:00:00Z",
+    "chapterCount": 2,
+    "tags": [
+      "decisiones"
+    ]
+  },
+  {
+    "id": 103,
+    "slug": "estacion-olvidada",
+    "title": "Estación olvidada",
+    "description": "Una historia interactiva por descubrir.",
+    "genres": [
+      "misterio"
+    ],
+    "coverKey": "stories/103/cover.webp",
+    "status": "published",
+    "publishedAt": "2026-11-03T00:00:00Z",
+    "chapterCount": 2,
+    "tags": [
+      "decisiones"
+    ]
+  },
+  {
+    "id": 104,
+    "slug": "el-faro-de-medianoche",
+    "title": "El faro de medianoche",
+    "description": "Una historia interactiva por descubrir.",
+    "genres": [
+      "aventura"
+    ],
+    "coverKey": "stories/104/cover.webp",
+    "status": "published",
+    "publishedAt": "2026-11-04T00:00:00Z",
+    "chapterCount": 2,
+    "tags": [
+      "decisiones"
+    ]
+  },
+  {
+    "id": 105,
+    "slug": "cartas-desde-el-manana",
+    "title": "Cartas desde el mañana",
+    "description": "Una historia interactiva por descubrir.",
+    "genres": [
+      "misterio"
+    ],
+    "coverKey": "stories/105/cover.webp",
+    "status": "published",
+    "publishedAt": "2026-11-05T00:00:00Z",
+    "chapterCount": 2,
+    "tags": [
+      "decisiones"
+    ]
+  }
+]

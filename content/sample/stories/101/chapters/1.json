@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "title": "El comienzo",
+  "text": "Una puerta aparece ante ti. ¿Qué decides hacer?",
+  "choices": [
+    {
+      "text": "Abrir la puerta",
+      "nextChapterId": "2"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+@base = http://localhost:8787
+@token = REEMPLAZAR_CON_ID_TOKEN_DE_GOOGLE
+
+### Estado
+GET {{base}}/api/health
+
+### Catálogo
+GET {{base}}/api/stories?page=1&limit=20&sort=newest
+
+### Historia
+GET {{base}}/api/stories/101
+
+### Capítulo
+GET {{base}}/api/stories/101/chapters/1
+
+### Mi valoración
+GET {{base}}/api/stories/101/rating
+Authorization: Bearer {{token}}
+
+### Votar
+PUT {{base}}/api/stories/101/rating
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{"rating":5}
+
+### Eliminar mi voto
+DELETE {{base}}/api/stories/101/rating
+Authorization: Bearer {{token}}

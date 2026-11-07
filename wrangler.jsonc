@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "entre-paginas-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-07",
+  "observability": { "enabled": true },
+  "vars": { "CATALOG_KEY": "catalog/catalog.json", "CATALOG_TTL_SECONDS": "300", "ENVIRONMENT": "development" },
+  "r2_buckets": [{ "binding": "CONTENT", "bucket_name": "entre-paginas-content" }],
+  "d1_databases": [{ "binding": "DB", "database_name": "entre-paginas-ratings", "database_id": "local-only" }],
+  "ratelimits": [{ "name": "RATING_LIMITER", "namespace_id": "1001", "simple": { "limit": 20, "period": 60 } }]
+}

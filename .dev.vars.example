@@ -1,0 +1,2 @@
+# ID de cliente OAuth de Google aceptado como audiencia del ID token.
+GOOGLE_CLIENT_ID=example.apps.googleusercontent.com

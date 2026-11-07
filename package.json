@@ -1,0 +1,36 @@
+{
+  "name": "entre-paginas-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "build": "wrangler deploy --dry-run --outdir dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "db:migrate:local": "wrangler d1 migrations apply entre-paginas-ratings --local",
+    "db:migrate:remote": "wrangler d1 migrations apply entre-paginas-ratings --remote",
+    "catalog:validate": "tsx scripts/validate-catalog.ts",
+    "catalog:upload": "tsx scripts/upload-content.ts",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hono": "^4.13.17",
+    "jose": "^6.2.15",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.6.0",
+    "@cloudflare/workers-types": "^5.20261107.1",
+    "@vitest/coverage-v8": "^5.1.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.158.0"
+  },
+  "type": "module",
+  "private": true
+}
